@@ -5,7 +5,6 @@ $GLOBALS['TL_DCA']['tl_iso_product']['fields']['alias']['attributes'] = array
 (
     'legend' => 'general_legend',
     'fixed' => true,
-    'inherit' => true,
     'variant_fixed'=>true,
     'systemColumn'=>true
 );
