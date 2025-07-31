@@ -1,5 +1,7 @@
 <?php
 
+use Bcs\Backend\AliasBackend;
+
 // Update the 'attributes' values for the 'alias' field so we can add in 'variant_fixed'
 $GLOBALS['TL_DCA']['tl_iso_product']['fields']['alias']['attributes'] = array
 (
