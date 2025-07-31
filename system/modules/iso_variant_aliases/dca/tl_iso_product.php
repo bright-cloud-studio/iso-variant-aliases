@@ -8,3 +8,9 @@ $GLOBALS['TL_DCA']['tl_iso_product']['fields']['alias']['attributes'] = array
     'variant_fixed'=>true,
     'systemColumn'=>true
 );
+
+
+$GLOBALS['TL_DCA']['tl_iso_product']['fields']['alias']['save_callback'] = array
+(
+    array('Bcs\Backend\AliasBackend', 'save'),
+);
