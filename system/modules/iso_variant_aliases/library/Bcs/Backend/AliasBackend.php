@@ -1,5 +1,7 @@
 <?php
 
+namespace Bcs\Backend;
+
 use Isotope\Backend\Product\Alias;
 
 use Contao\Backend;
