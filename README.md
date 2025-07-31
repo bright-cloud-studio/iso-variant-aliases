@@ -1,2 +1,2 @@
-# iso-variant-aliases
-Enables alias field for variants
+# Bright Cloud Studio's Iso Variant Aliases
+## Enables alias field for variants
